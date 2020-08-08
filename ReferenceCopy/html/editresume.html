@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>edit resume - project wt - atharva</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/sign-in/">
+
+    <!-- Bootstrap core CSS -->
+    <!-- <link href="/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    
+    <!-- Custom styles for this template -->
+    <link href="../style/signin.css" rel="stylesheet">
+  </head>
+  <body class="text-center" onload="pagehasloaded()">
+    <div class="form-signin">
+        <div>
+            <img class="mb-4" src="../assets/logosandstuff/bootstrap-solid.svg" alt="" width="72" height="72">
+            <h1 class="h3 mb-3 font-weight-normal">"atharva" of project wt</h1>
+            <!-- <h1 class="h3 mb-3 font-weight-normal">project wt</h1> -->
+            <h1 class="h3 mb-3 font-weight-normal">simple html app</h1> 
+        </div>
+        <div id="loadinganimation">
+            <p>loading...</p>
+        </div>
+        <div id="namedisplay" class="alert alert-success" role="alert">
+        </div> 
+        <div class="alert alert-warning" role="alert">
+          <button type="button" class="btn btn-primary btn-sm" onclick="signout()">
+            sign out
+          </button>
+      </div>          
+        <div class="alert alert-warning" role="alert">
+          <button type="button" class="btn btn-primary btn-sm" onclick="loadresumepage()">
+            full resume
+          </button>
+      </div>
+      <div class="alert alert-warning" role="alert">
+        <p>
+          to see the cool resume, you must have added
+        </p>
+        <ol>
+          <li>4 education items</li>
+          <li>2 project items</li>
+          <li>2 extra curricular items</li>
+          <li>2 other notes items</li>
+          <li>3 skill items</li>
+        </ol>
+        <button type="button" class="btn btn-primary btn-sm" onclick="loadthemeresumepage()">
+          theme based full resume
+        </button>
+    </div>
+      <div class="alert alert-warning" role="alert">
+          <button type="button" class="btn btn-primary btn-sm" onclick="signinpage()">
+            edit name
+          </button>
+      </div> 
+        <hr>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" 
+        data-target="#phonenumberdisplay" aria-expanded="false" aria-controls="collapseExample">
+          add or update phone number
+        </button>        
+        <div id="phonenumberdisplay" class="alert alert-primary collapse" role="alert">
+        </div>
+        <hr>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" 
+        data-target="#addressdisplay" aria-expanded="false" aria-controls="collapseExample">
+          add or update address
+        </button>  
+        <div id="addressdisplay" class="alert alert-info collapse" role="alert">
+        </div>
+        <hr>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" 
+        data-target="#educationdisplay" aria-expanded="false" aria-controls="collapseExample">
+          add or update education
+        </button> 
+        <div id="educationdisplay" class="alert alert-danger collapse" role="alert">
+        </div>
+        <hr>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" 
+        data-target="#skilldisplay" aria-expanded="false" aria-controls="collapseExample">
+          add or update skills
+        </button> 
+        <div id="skilldisplay" class="alert alert-warning collapse" role="alert">
+        </div>
+        <hr>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" 
+        data-target="#projectdisplay" aria-expanded="false" aria-controls="collapseExample">
+          add or update projects
+        </button> 
+        <div id="projectdisplay" class="alert alert-info collapse" role="alert">
+        </div>
+        <hr>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" 
+        data-target="#extracurriculardisplay" aria-expanded="false" aria-controls="collapseExample">
+          add or update extra curriculars
+        </button> 
+        <div id="extracurriculardisplay" class="alert alert-primary collapse" role="alert">
+        </div>
+        <hr>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" 
+        data-target="#otherstuffdisplay" aria-expanded="false" aria-controls="collapseExample">
+          add or update other details
+        </button> 
+        <div id="otherstuffdisplay" class="alert alert-danger collapse" role="alert">
+        </div>        
+        <hr>     
+        <div>
+            <p class="mt-5 mb-3 text-muted"><a href="../index.html" >home</a></p>
+            <p class="mt-5 mb-3 text-muted"><a href="http://thechalakas.com/" >contact</a></p>
+        </div>
+    </div>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="../scripts/commonfunctions.js"></script>
+    <script src="../scripts/editresume.js"></script>
+</body>
+</html>

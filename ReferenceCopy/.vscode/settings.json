@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/7f0cdb86-a48d-4cf5-bc03-d32e0272c749/resourceGroups/BariBasicsProgramming/providers/Microsoft.Web/sites/baribasicswebappjune23rd2020",
+    "appService.deploySubpath": "."
+}
