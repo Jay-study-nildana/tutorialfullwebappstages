@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>sign in - project wt - atharva</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/sign-in/">
+
+    <!-- Bootstrap core CSS -->
+    <!-- <link href="/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+
+    <!-- Custom styles for this template -->
+    <link href="../style/signin.css" rel="stylesheet">
+  </head>
+
+  <body class="text-center" onload="pagehasloaded()">
+    <div class="form-signin">
+      <div id="maintitlelines">
+        <h3 id = "maintitleline1" class="font-weight-normal">-</h3>
+        <h7 id = "maintitleline2" class="font-weight-normal">-</h7>
+      </div>
+      <hr>      
+    <div id="inputboxforemailandpassword">
+      <!-- <h1 class="h3 mb-3 font-weight-normal">sign in below</h1> -->
+      <!-- <label for="inputEmail" class="sr-only">Email address</label> -->
+      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+      <!-- <label for="inputPassword" class="sr-only">Password</label> -->
+      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+      <hr>
+    </div>
+    <div id="outboxforloginsuccess">
+      <!-- <h1 class="h3 mb-3 font-weight-normal">sign in below</h1> -->
+      <hr>      
+      <!-- <label for="inputEmail" class="sr-only">Email address</label> -->
+      <div class="alert alert-primary" role="alert">
+        Hey!
+      </div>
+      <div class="alert alert-danger" role="alert">
+        You have successfully signed in! Welcome back.
+      </div>
+    </div>  
+    <hr>  
+    <div id="apistatusmessage">
+      <p>loading...</p>
+    </div>    
+    <!-- <div id = "statusmessageafterAPIcall" class="alert alert-danger" role="alert">
+    </div> -->
+    <!-- <div id = "taphomebelow" class="alert alert-light" role="alert">
+      tap/click 'home' button below to sign in.
+    </div> -->
+    <div id="ResumeSummary">
+      <!-- <div class="alert alert-light" role="alert">
+        <h4 class="alert-heading">ame</h4>
+        <p id="primaryemail">---</p>
+        <hr>
+      </div> -->
+      <div class="collapse" id="nameboxtoggle">
+        <div class="alert alert-success" role="alert">
+          <!-- <h4 class="alert-heading">ame</h4> -->
+          <!-- <p id="entirename">Aww yeah,</p> -->
+          <hr>
+          <!-- <p class="mb-0">Update your name here</p>
+          <hr> -->
+          <div id="inputboxforname">
+            <input type="text" id="inputfirstname" class="form-control" placeholder="first name" required>
+            <input type="text" id="inputmiddlename" class="form-control" placeholder="middle name (optional)">
+            <input type="text" id="inputlastname" class="form-control" placeholder="last name or initials" required>
+            <button id = "buttonupdatename" class="btn btn-lg btn-primary btn-block"
+              onclick="updatename()" >update name</button>
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button id = "buttonsignin" class="btn btn-lg btn-primary btn-block" onclick="signin()" >
+      sign in
+    </button>    
+    <button id = "buttonsignout" class="btn btn-lg btn-primary btn-block" onclick="signout()">
+      sign out
+    </button>    
+    <p>dont have a account? Register <a href="registration.html" class="alert-link">here</a></p>       
+    <hr>
+    <!-- TODO13   generate the footer dynamically in common functions so we can add new items at one go -->
+    <div id="bottomlinksfooter">
+      <p class="text-muted"><a href="apiservicedemo.html" >API home</a> | <a href="registration.html" >register</a></p>
+      <p class="text-muted"><a href="../index.html" >web app home</a> | <a href="http://thechalakas.com/" >contact</a></p>
+      <!-- <p class="text-muted"><a href="http://thechalakas.com/" >contact</a></p> -->
+    </div>
+    </div>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="../scripts/signin.js"></script>
+    <script src="../scripts/commonfunctions.js"></script>
+</body>
+</html>
