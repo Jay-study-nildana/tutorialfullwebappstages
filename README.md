@@ -14,8 +14,8 @@ here is the [reference copy](ReferenceCopy) of what the final look of the projec
 
 * [Stage 1 - Project Structure and Landing Page](Stage_1)
 * [Stage 2 - Register Page](Stage_2) 
-* Stage 3 - Sign In Page
-* Stage 4 - API Landing Page
+* [Stage 3 - Sign In Page](Stage_3)
+* [Stage 4 - API Landing Page](Stage_4)
 * Stage 5 - The Test EndPoints - Both Of Them
 * Stage 6 - API Create EndPoint
 * Stage 7 - API Read EndPoint
