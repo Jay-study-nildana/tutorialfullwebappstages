@@ -2,7 +2,9 @@
 
 There are many ways to deploy a web app. I usually setup a CICD azure pipeline to do deployments. 
 
-For the sake of simplicity, and for beginners, i prefer to deploy web apps directly from visual studio code to a web app service in Azure. It's easier if I show this in a video, how to do it. 
+For the sake of simplicity, and for beginners, i prefer to deploy web apps directly from visual studio code to a web app service in Azure. It's easier if I show this in a video, how to do it.
+
+Just watch [our video here]().
 
 note : this steps assumes that you already have a azure account configured by you. 
 
