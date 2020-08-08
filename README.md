@@ -21,7 +21,7 @@ here is the [reference copy](ReferenceCopy) of what the final look of the projec
 * [Stage 7 - API Read EndPoint](Stage_7)
 * [Stage 8 - API Update EndPoint](Stage_8)
 * [Stage 9 - API Delete EndPoint](Stage_9)
-* Stage 10 - Deployment and Wrap up
+* [Stage 10 - Deployment and Wrap up](deployment.md)
 
 # social media 
 
