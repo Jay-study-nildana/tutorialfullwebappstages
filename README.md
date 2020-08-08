@@ -18,7 +18,7 @@ here is the [reference copy](ReferenceCopy) of what the final look of the projec
 * [Stage 4 - API Landing Page](Stage_4)
 * [Stage 5 - The Test EndPoints - Both Of Them](Stage_5)
 * [Stage 6 - API Create EndPoint](Stage_6)
-* Stage 7 - API Read EndPoint
+* [Stage 7 - API Read EndPoint](Stage_7)
 * Stage 8 - API Update EndPoint
 * Stage 9 - API Delete EndPoint
 * Stage 10 - Deployment and Wrap up

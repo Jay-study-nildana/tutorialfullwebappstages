@@ -1,6 +1,6 @@
-# Stage 3
+# Stage 5
 
-By the end of this stage, you should have a sign in page up and running.
+By the end of this stage, you should have both the test api endpoints working. One of them is endpoint without token. Another is endpoint with token.
 
 # running locally
 

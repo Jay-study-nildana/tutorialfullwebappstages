@@ -1,6 +1,6 @@
-# Stage 3
+# Stage 6
 
-By the end of this stage, you should have a sign in page up and running.
+By the end of this stage, you should be able to add education entries via the API server.
 
 # running locally
 

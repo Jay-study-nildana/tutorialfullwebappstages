@@ -1,6 +1,6 @@
-# Stage 4
+# Stage 7
 
-By the end of this stage, you should have a API landing page ready.
+By the end of this stage, you should be able to read and see the entire collection of education entries added to the API server. 
 
 # running locally
 
