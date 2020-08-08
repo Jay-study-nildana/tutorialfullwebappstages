@@ -13,7 +13,7 @@ here is the [reference copy](ReferenceCopy) of what the final look of the projec
 # The stages
 
 * [Stage 1 - Project Structure and Landing Page](Stage_1)
-* Stage 2 - Register Page 
+* [Stage 2 - Register Page](Stage_2) 
 * Stage 3 - Sign In Page
 * Stage 4 - API Landing Page
 * Stage 5 - The Test EndPoints - Both Of Them

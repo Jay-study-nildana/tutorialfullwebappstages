@@ -170,9 +170,7 @@ function returnCurrentBaseURL()
     var logcloser="----leaving returnCurrentBaseURL----";
     console.log(logcloser);
 
-    return currentUrl;
-
-    
+    return currentUrl;   
 }
 
 function storeToken(tokentostore)
